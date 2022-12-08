@@ -296,4 +296,16 @@ hr{
   
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+@media (max-width: 900px) {
+  .container {
+    
+  flex-wrap: wrap;
+  }
+  .main-video,
+  .suggest-videos {
+    flex: 100%;
+    
+  }
+  
+}
 
